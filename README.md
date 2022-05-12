@@ -2,7 +2,7 @@
 # MINISHELL
 
 @42 lisbon
-Coauthored by: https://github.com/daalmeid
+Coauthored by: https://github.com/Rafael2sf
 
 #
 ## 📝   - Description 
@@ -21,7 +21,7 @@ This project brings together all the knowledge acquired in previous projects and
 &emsp;  Once the tree is built with all the tokens, we iterate it to make all the necessary changes, such as removing unwanted and special characters, ex: spaces, tabs, quotes... And expanding the variables to their value.
   
 #### 4)  Executor <br />
-&emsp;  Now that the input is ready to be used, we can pump it into the executor, all the command line will be exeuted at the same time, builtins functions will be run in the main process, and binaries will be executed in child processes using execve and pipes. Once it's complete, all the unecessary memory is freed and go back to step 1.
+&emsp;  Now that the input is ready to be used, we can pump it into the executor, all the command line will be exeuted at the same time, builtins functions will be run in the main process, and binaries will be executed in child processes using execve and pipes. Once it's complete, all the unecessary memory is freed and user input is requested again.
 
 Note: This project makes use of termios structure and signal handling to manage some of the behavior.
 
